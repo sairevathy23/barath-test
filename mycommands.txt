@@ -7,80 +7,138 @@
     7  pwd
     8  ls
     9  ls -l
-   10  ls --help
-   11  ls -l
-   12  ls -t
-   13  ls -l -t
-   14  ls -l -r
-   15  ls -l -rt
-   16  ls -lrt
-   17  ls -l
-   18  ls
-   19  ls | wc -l
-   20  ls -lrt| wc -l
-   21  chmod -h
-   22  chmod --help
-   23  pwd
-   24  cd gitdirectory
-   25  cd gitcommands/
-   26  gitchmod-c
-   27   chmod -c
-   28  git init
-   29  ls -lrt
-   30  ls -a
-   31  ls -alrt
-   32  ls -d
-   33  ls -da
-   34  cd..
+   10  ls -t
+   11  ls -l -t
+   12  ls -l -r
+   13  ls -l -rt
+   14  ls -lrt
+   15  ls -l
+   16  ls
+   17  ls | wc -l
+   18  ls -lrt| wc -l
+   19  chmod -h
+   20  chmod --help
+   21  pwd
+   22  cd gitdirectory
+   23  cd gitcommands/
+   24  gitchmod-c
+   25   chmod -c
+   26  git init
+   27  ls -lrt
+   28  ls -a
+   29  ls -alrt
+   30  ls -d
+   31  ls -da
+   32  cd..
+   33  cd ..
+   34  ls -da
    35  cd ..
    36  ls -da
-   37  cd ..
-   38  ls -da
-   39  ls -d
-   40  ls -lrt
-   41  ls -D
-   42  ls --help
-   43  ls -d
-   44  pwd
-   45  ls -ld
-   46  ps -ef
-   47  cd BARATH KUMAR
-   48  cd "BARATH KUMAR"
-   49  CD GITcommands
-   50  CD gitcommands
-   51  cd gitcommands
-   52  cat > barath1.txt
+   37  ls -d
+   38  ls -lrt
+   39  ls -D
+   40  ls --help
+   41  ls -d
+   42  pwd
+   43  ls -ld
+   44  ps -ef
+   45  cd BARATH KUMAR
+   46  cd "BARATH KUMAR"
+   47  CD GITcommands
+   48  CD gitcommands
+   49  cd gitcommands
+   50  cat > barath1.txt
+   51  ls -lrt
+   52  cat > barath2.bat
    53  ls -lrt
-   54  cat > barath2.bat
-   55  ls -lrt
-   56  chmod 777
-   57  chmod barath2.bat 777
-   58  chmod --help
-   59  chmod 777 barath2.bat
-   60  ls -lrt
+   54  chmod 777
+   55  chmod barath2.bat 777
+   56  chmod --help
+   57  chmod 777 barath2.bat
+   58  ls -lrt
+   59  ls -lrt
+   60  chmod 750 barath2.bat
    61  ls -lrt
-   62  chmod 750 barath2.bat
+   62  chmod 750 barath1.txt
    63  ls -lrt
-   64  chmod 750 barath1.txt
-   65  ls -lrt
-   66  cat --help
-   67  cat barath1.txt
-   68  cat barath2.bat
-   69  more barath1.txt
-   70  tail -f
-   71  rm barath2.bat
-   72  ls -lrt
-   73  cat barath2.bat
-   74  cat > barath2.bat
-   75  cat > barath3.txt
-   76  ls -lrt
-   77  vi barath4.txt
-   78  cat barath4.txt
-   79  vi barath5.bat
-   80  vi barath5.bat
-   81  touch barath6.txt
+   64  cat --help
+   65  cat barath1.txt
+   66  cat barath2.bat
+   67  more barath1.txt
+   68  tail -f
+   69  rm barath2.bat
+   70  ls -lrt
+   71  cat barath2.bat
+   72  cat > barath2.bat
+   73  cat > barath3.txt
+   74  ls -lrt
+   75  vi barath4.txt
+   76  cat barath4.txt
+   77  vi barath5.bat
+   78  vi barath5.bat
+   79  touch barath6.txt
+   80  ls -lrt
+   81  cat >>barath6.txt
    82  ls -lrt
-   83  cat >>barath6.txt
-   84  ls -lrt
-   85  history
-   86  history > mycommands.txt
+   83  history
+   84  history > mycommands.txt
+   85  ls -lrt
+   86  cat  mycommands.txt
+   87* cat  mycommands.txt 
+   88  history mycommands.txt -50
+   89  history -10
+   90  history > -10
+   91  history -d10
+   92  history -d 10
+   93  ls -lrt
+   94  cat -10
+   95  cat 10
+   96  cat '-10'
+   97  cat "-10"
+   98  cat --help
+   99  ls -lrt
+  100  cat "-10"
+  101  cat "\-10"
+  102  cat '-10'
+  103  git add .
+  104  ls -lrt
+  105  git status
+  106  git commit --help
+  107  git commit -m 
+  108  git commit -m my first commit
+  109  git commit -m "my first commit"
+  110  git config --global user.email "sairevathy23@gmail.com"
+  111  git config --global user.name "sairevathy23"
+  112  git commit -m "my first commit"
+  113  git status
+  114  git push origin barathtest
+  115  git push origin barathtest
+  116  git remote add origin https://github.com/sairevathy23/barath-test.git
+  117  git push -u origin main
+  118  git push -u origin master
+  119  history
+  120  ls -ltr
+  121  cat  mycommands.txt
+  122  cat > mycommands.txt
+  123  cat > mycommands.txt
+  124  history > mycommands.txt
+  125  cat > barath7.txt
+  126  cat barath7.txt
+  127  git add .
+  128  git commit -m "final update"
+  129  git status
+  130  git push origin barathtest
+  131  git push origin barath-test
+  132  git push origin barath_branch
+  133  git pull
+  134  git push origin barath_branch
+  135  git checkout barath_branch
+  136  git push origin barath_branch
+  137  git add .
+  138  git commit -m "final update"
+  139  git push origin barath_branch
+  140  ls -lrt
+  141  cat barath7.txt
+  142  cat > barath7.txt
+  143  cat  barath7.txt
+  144  history > mycommands.txt
